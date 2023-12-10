@@ -27,7 +27,7 @@ function App() {
   const { darkMode } = useContext(DarkModeContext)
   console.log("darkmode", darkMode)
 
-  //create instance of queryclients
+  //create instances of queryclients
   const queryClient = new QueryClient()
 
   const Layout = () => {
